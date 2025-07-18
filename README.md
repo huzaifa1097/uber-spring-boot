@@ -29,8 +29,7 @@ This is a backend REST API application built with **Spring Boot**, simulating th
 ## ⚙️ Tech Stack
 
 - **Backend:** Java 17, Spring Boot 3, Spring Security
-- **Database:** MySQL (via JPA/Hibernate)
-- **Documentation:** Swagger (springdoc-openapi)
+- **Database:** PostgreSql (via JPA/Hibernate)
 - **Testing:** Postman (Public Collection Available)
 - **Deployment:** AWS Elastic Beanstalk
 
