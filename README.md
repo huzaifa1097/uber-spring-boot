@@ -7,7 +7,8 @@ This is a backend REST API application built with **Spring Boot**, simulating th
 ## 🌐 Live Demo
 
 - 🔗 **Base URL**: [`http://uber-spring-boot-env.eba-retfie2d.eu-north-1.elasticbeanstalk.com`](http://uber-spring-boot-env.eba-retfie2d.eu-north-1.elasticbeanstalk.com)
-- 📬 **Postman Collection**: [Uber_Backend_Postman_Collection_All.json](./Uber_Backend_Postman_Collection_All.json)
+- 📘 **Swagger API Docs**: [`/swagger-ui/index.html`](http://uber-spring-boot-env.eba-retfie2d.eu-north-1.elasticbeanstalk.com/swagger-ui/index.html)
+- 📬 **Postman Collection**: [Uber_Backend.json](./Uber_Backend_Postman_Collection_All.json)
 
 ---
 
@@ -84,7 +85,7 @@ $ git clone https://github.com/huzaifa1097/uber-spring-boot.git
 $ cd uber-spring-boot
 
 # 2. Setup DB
-- Configure your MySQL DB in `application.properties`
+- Configure your PostgreSQL DB in `application.properties`
 
 # 3. Run with Maven
 $ ./mvnw spring-boot:run
